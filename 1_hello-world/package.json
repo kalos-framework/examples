@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "braces": ">=2.3.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
@@ -13,7 +15,11 @@
     "start": "babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["node", "javascript", "kalos"],
+  "keywords": [
+    "node",
+    "javascript",
+    "kalos"
+  ],
   "author": "Pete Houston <contact@petehouston.com>",
   "license": "MIT"
 }
