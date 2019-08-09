@@ -9,3 +9,4 @@ List of examples for Kalos framework.
 - [Route Middleware](5_route-middleware)
 - [3rd Party Middleware](6_3rd-party-middleware)
 - [Route query](7_route-query)
+- [Authen](8_authentication)
