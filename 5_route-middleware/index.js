@@ -1,6 +1,6 @@
 import Kalos from 'kalos';
 
-const isAuthed = false;
+const isAuthed = true;
 
 const isLogin = (req, res, next) => {
     if (!!isAuthed) {

@@ -10,11 +10,12 @@ const server = new Kalos.Server()
         source: path.join(__dirname, 'public')
     })
     .viewEngine({
+        engine: require('pug'),
         source: path.join(__dirname, 'views'),
-        ext: 'ejs'
+        ext: 'pug'
     })
     .get('/', (req, res) => {
-        res.view('index', { names });
+        res.view('index', { names }, {});
     })
     .post('/', (req, res) => {
         if (req.body.name) {
